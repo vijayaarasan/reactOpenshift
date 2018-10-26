@@ -13,7 +13,7 @@ import NewBookPage from "./components/pages/NewBookPage";
 import UserRoute from "./components/routes/UserRoute";
 import GuestRoute from "./components/routes/GuestRoute";
 import TopNavigation from "./components/navigation/TopNavigation";
-
+ 
 const App = ({ location, isAuthenticated }) => (
   <div className="ui container">
     {isAuthenticated && <TopNavigation />}
